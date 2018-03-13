@@ -19,6 +19,7 @@ print("The result is", number1 + number2)
 numbers_text_file.close()
 
 
+
 #Original attempt
 # with open('numbers.txt', 'r') as numbers_text_file:
 #     total = 0
