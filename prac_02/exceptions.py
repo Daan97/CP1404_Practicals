@@ -8,7 +8,7 @@ Answer the following questions:
 Answers:
 1. A ValueError will occur if one of the numbers is a float number
 2. A ZeroDivisionError occurs when the denominator is set to 0, as you can't divide by 0.
-3.
+3. No
 """
 
 try:
