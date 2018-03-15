@@ -1,6 +1,21 @@
 """Daan Felton-Busch"""
-name = str(input("Enter your name: "))
-while name == "":
-    print("Invalid name!")
+
+
+def main():
+    name = get_name()
+    print_name(name)
+
+
+def print_name(name, frequency=2):
+    print(name[::frequency])
+
+
+def get_name():
     name = str(input("Enter your name: "))
-print(name[0::2])
+    while name == "":
+        print("Invalid name!")
+        name = str(input("Enter your name: "))
+    return name
+
+
+main()
