@@ -11,10 +11,10 @@ def print_name(name, frequency=2):
 
 
 def get_name():
-    name = str(input("Enter your name: "))
+    name = input("Enter your name: ")
     while name == "":
         print("Invalid name!")
-        name = str(input("Enter your name: "))
+        name = input("Enter your name: ")
     return name
 
 
