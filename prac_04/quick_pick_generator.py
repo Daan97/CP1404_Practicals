@@ -25,11 +25,3 @@ def main():
 main()
 
 
-# Original_attempt
-# quick_pick = int(input("How many quick picks? "))
-# for i in range(quick_pick):
-#     random_numbers = random.sample(range(1, 45), 6)
-#     print(" ".join(random_numbers[::])
-#
-# numbers = []
-# for i in range(1, 6):
