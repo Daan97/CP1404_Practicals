@@ -1,15 +1,10 @@
-#Program 1
+# Program 1
 
 numbers = []
-for i in range(1, 6):
+for i in range(5):
     numbers.append(int(input("Number: ")))
 print("The first number is", numbers[0])
-print("The last number is",numbers[-1])
+print("The last number is", numbers[-1])
 print("The smallest number is", min(numbers))
 print("The largest number is", max(numbers))
-print("The average of the numbers is", sum(numbers)/len(numbers))
-
-
-
-
-
+print("The average of the numbers is", sum(numbers) / len(numbers))
